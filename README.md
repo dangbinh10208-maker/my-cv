@@ -1,18 +1,21 @@
 # Portfolio cá nhân — Nguyễn Đăng Bình
 
-## Giới thiệu
+## Tên dự án
 
-Đây là website portfolio/CV cá nhân giới thiệu Nguyễn Đăng Bình với định hướng Frontend Developer. Trang cung cấp phần giới thiệu, các mục kỹ năng, kỷ niệm/dự án và thông tin liên hệ. Giao diện được thiết kế responsive để sử dụng trên điện thoại, máy tính bảng và máy tính.
+**Portfolio cá nhân của Nguyễn Đăng Bình** — trang giới thiệu cá nhân theo định hướng Frontend Developer.
+
+## Mô tả
+
+Đây là website tĩnh giới thiệu Nguyễn Đăng Bình, các kỹ năng, dự án/kỷ niệm và thông tin liên hệ. Giao diện hỗ trợ nhiều kích thước màn hình, từ điện thoại đến máy tính. Dự án chỉ dùng HTML và CSS, không cần máy chủ backend, cơ sở dữ liệu hoặc bước cài thư viện.
 
 ## Chức năng
 
-- Điều hướng nhanh đến các phần Giới thiệu, Kỹ năng, Dự án và Liên hệ.
-- Hiển thị ảnh đại diện, nội dung giới thiệu và các thẻ dự án/kỷ niệm.
-- Bố cục tự điều chỉnh theo kích thước màn hình.
+- Điều hướng đến các mục Giới thiệu, Kỹ năng, Dự án và Liên hệ.
+- Hiển thị phần giới thiệu, ảnh đại diện và các thẻ dự án/kỷ niệm.
+- Bố cục co giãn phù hợp với màn hình nhỏ và màn hình lớn.
 - Cung cấp liên kết email và Zalo để liên hệ.
-- Không cần tài khoản, cơ sở dữ liệu hay dịch vụ backend.
 
-## Công nghệ sử dụng
+## Công nghệ
 
 - **HTML5:** cấu trúc và nội dung trang.
 - **CSS3:** giao diện, bố cục responsive và hiệu ứng trình bày.
@@ -21,71 +24,73 @@
 
 ## Yêu cầu môi trường
 
-Để xem trang, bạn chỉ cần một trình duyệt web hiện đại. Không cần cài Node.js, npm hay thư viện phụ thuộc.
+Để xem trang, cần một trình duyệt web hiện đại. Không bắt buộc cài Node.js, npm hay thư viện phụ thuộc.
 
 Để chạy máy chủ web cục bộ, chọn một trong các cách sau:
 
-- **Windows:** Python 3 (lệnh `py`) hoặc Docker Desktop.
-- **macOS:** Python 3 (lệnh `python3`) hoặc Docker Desktop.
-- **Linux:** Python 3 (lệnh `python3`) hoặc Docker Engine.
+| Hệ điều hành | Yêu cầu |
+| --- | --- |
+| Windows | Python 3 (có lệnh `py`) hoặc Docker Desktop |
+| macOS | Python 3 (có lệnh `python3`) hoặc Docker Desktop |
+| Linux | Python 3 (có lệnh `python3`) hoặc Docker Engine |
 
 ## Cài đặt mã nguồn
 
-Mở Terminal, PowerShell hoặc Command Prompt và sao chép kho mã nguồn:
+Mở PowerShell, Command Prompt hoặc Terminal và chạy:
 
 ```bash
 git clone https://github.com/dangbinh10208-maker/my-cv.git
 cd my-cv
 ```
 
-Nếu không dùng Git, tải mã nguồn từ trang GitHub của dự án và giải nén. Giữ nguyên cấu trúc thư mục, đặc biệt là `assets/`, để các tệp CSS và hình ảnh được tải đúng.
+Hoặc tải mã nguồn từ GitHub và giải nén. Giữ nguyên cấu trúc thư mục, đặc biệt là `assets/`, để trang tải được CSS và hình ảnh.
 
 ## Cấu hình và tùy chỉnh
 
 Dự án không có tệp cấu hình môi trường, biến môi trường hay bước cài đặt phụ thuộc.
 
-- Sửa nội dung, thông tin giới thiệu, dự án và liên hệ trong `index.html`.
-- Sửa màu sắc, khoảng cách và kiểu hiển thị trong `assets/css/styles.css`. Các màu chính được khai báo bằng CSS custom properties ở đầu tệp.
-- Thay hình ảnh trong `assets/img/` và cập nhật đường dẫn tương ứng trong `index.html`.
-- Nếu thay đổi email hoặc số điện thoại, cập nhật cả nội dung hiển thị lẫn liên kết `mailto:` hoặc Zalo.
+- Sửa nội dung giới thiệu, kỹ năng, dự án và liên hệ trong `index.html`.
+- Sửa màu sắc và kiểu trình bày trong `assets/css/styles.css`; các màu chính được khai báo bằng CSS custom properties ở đầu tệp.
+- Thay hình ảnh trong `assets/img/` và cập nhật đường dẫn ảnh tương ứng trong `index.html`.
+- Khi đổi thông tin liên hệ, cập nhật cả nội dung hiển thị và liên kết `mailto:` hoặc Zalo.
 
 ## Chạy thử
 
+Chạy lệnh từ thư mục gốc của dự án, sau đó mở địa chỉ tương ứng trên trình duyệt. Nếu cổng `8000` đang được sử dụng, thay `8000` bằng một cổng khác trong lệnh và địa chỉ truy cập.
+
 ### Windows
 
-Mở PowerShell hoặc Command Prompt tại thư mục `my-cv`, sau đó chạy:
+Mở PowerShell hoặc Command Prompt tại thư mục dự án:
 
 ```powershell
 py -m http.server 8000
 ```
 
-Nếu lệnh `py` không có trên máy, cài Python 3 hoặc mở trực tiếp `index.html` trong trình duyệt. Mở [http://localhost:8000](http://localhost:8000) để xem trang. Nhấn `Ctrl+C` trong cửa sổ lệnh để dừng máy chủ.
+Truy cập [http://localhost:8000](http://localhost:8000). Nhấn `Ctrl+C` trong cửa sổ lệnh để dừng máy chủ. Nếu không có lệnh `py`, cài Python 3 hoặc mở trực tiếp `index.html` bằng trình duyệt.
 
 ### macOS
 
-Mở Terminal tại thư mục `my-cv` và chạy:
+Mở Terminal tại thư mục dự án:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Mở [http://localhost:8000](http://localhost:8000) trong trình duyệt. Nhấn `Ctrl+C` để dừng máy chủ.
+Truy cập [http://localhost:8000](http://localhost:8000). Nhấn `Ctrl+C` để dừng máy chủ.
 
 ### Linux
 
-Mở Terminal tại thư mục `my-cv` và chạy:
+Mở Terminal tại thư mục dự án:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Mở [http://localhost:8000](http://localhost:8000) trong trình duyệt. Nhấn `Ctrl+C` để dừng máy chủ.
-
-> Nếu cổng `8000` đang được sử dụng, thay `8000` trong lệnh bằng một cổng khác, chẳng hạn `8080`, rồi mở đúng cổng đó trên trình duyệt.
+Truy cập [http://localhost:8000](http://localhost:8000). Nhấn `Ctrl+C` để dừng máy chủ.
 
 ## Chạy bằng Docker
 
-Cài Docker Desktop trên Windows/macOS hoặc Docker Engine trên Linux, sau đó chạy lệnh tại thư mục gốc của dự án. Lệnh dùng image Apache chính thức và gắn thư mục dự án ở chế độ chỉ đọc; không cần Dockerfile hoặc build image.
+Cài Docker Desktop trên Windows/macOS hoặc Docker Engine trên Linux, khởi động Docker rồi chạy lệnh tại thư mục gốc của dự án. Lệnh dùng image Apache chính thức và gắn thư mục dự án ở chế độ chỉ đọc; không cần Dockerfile hoặc build image.
 
 **Windows PowerShell:**
 
@@ -99,7 +104,7 @@ docker run --rm -p 8080:80 -v "${PWD}:/usr/local/apache2/htdocs:ro" httpd:2.4
 docker run --rm -p 8080:80 -v "$PWD:/usr/local/apache2/htdocs:ro" httpd:2.4
 ```
 
-Mở [http://localhost:8080](http://localhost:8080) để xem trang. Nhấn `Ctrl+C` để dừng và xóa container. Nếu Docker báo không thể truy cập daemon, hãy khởi động Docker Desktop (Windows/macOS) hoặc Docker Engine (Linux) rồi thử lại.
+Truy cập [http://localhost:8080](http://localhost:8080). Nhấn `Ctrl+C` để dừng và xóa container. Nếu Docker không kết nối được tới daemon, hãy khởi động Docker Desktop hoặc Docker Engine rồi chạy lại.
 
 ## Thông tin liên hệ
 
