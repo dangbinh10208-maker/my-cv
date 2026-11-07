@@ -10,10 +10,11 @@
 
 ## Chức năng
 
-- Điều hướng đến các mục Giới thiệu, Kỹ năng, Dự án và Liên hệ.
-- Hiển thị phần giới thiệu, ảnh đại diện và các thẻ dự án/kỷ niệm.
-- Bố cục co giãn phù hợp với màn hình nhỏ và màn hình lớn.
-- Cung cấp liên kết email và Zalo để liên hệ.
+- Điều hướng đến Trang chủ, Giới thiệu, Kỹ năng, Kỷ niệm, Dự án và Liên hệ.
+- Hiển thị phần giới thiệu, mục tiêu nghề nghiệp, ảnh đại diện và kỹ năng dạng thẻ.
+- Trưng bày thư viện ảnh kỷ niệm dạng lưới và các dự án/mục tiêu học tập.
+- Bố cục responsive cho điện thoại, máy tính bảng và máy tính; có hiệu ứng chuyển động nhẹ và hỗ trợ giảm chuyển động.
+- Cung cấp liên kết Facebook, email và Zalo để liên hệ.
 
 ## Công nghệ
 
