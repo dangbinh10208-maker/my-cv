@@ -1,4 +1,4 @@
-# Portfolio cá nhân — Nguyễn Đăng Bình
+# portfolio-nguyen-dang-binh
 
 ## Tên dự án
 
@@ -40,8 +40,8 @@
 Mở PowerShell, Command Prompt hoặc Terminal và chạy:
 
 ```bash
-git clone https://github.com/dangbinh10208-maker/my-cv.git
-cd my-cv
+git clone https://github.com/dangbinh10208-maker/portfolio-nguyen-dang-binh.git
+cd portfolio-nguyen-dang-binh
 ```
 
 Hoặc tải mã nguồn từ GitHub và giải nén. Giữ nguyên cấu trúc thư mục, đặc biệt là `assets/`, để trang tải được CSS và hình ảnh.
@@ -112,4 +112,4 @@ Truy cập [http://localhost:8080](http://localhost:8080). Nhấn `Ctrl+C` để
 - **Tác giả:** Nguyễn Đăng Bình
 - **Email:** [dangbinh10208@gmail.com](mailto:dangbinh10208@gmail.com)
 - **Zalo:** [0968779255](https://zalo.me/0968779255)
-- **Kho mã nguồn:** [dangbinh10208-maker/my-cv](https://github.com/dangbinh10208-maker/my-cv)
+- **Kho mã nguồn:** [dangbinh10208-maker/portfolio-nguyen-dang-binh](https://github.com/dangbinh10208-maker/portfolio-nguyen-dang-binh)
